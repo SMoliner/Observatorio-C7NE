@@ -1,34 +1,38 @@
-.intro{
-    background-color: gray;
-      height: 100px;
-    }
-    
-    .cine{
-      background-color: lightblue;
-      height:200px;
-    }
-    .body{
-      background-color= purple;
-      height: 400px;
-    }
-    *text{
-      font-family: "helvetica";
-    }
-    .cita{
-      font-family:"italic";
-    }
-    .background-img{
-      width:100%;
-      height:200vh;
-    }
-    body{
-    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cinema-paradiso-30-aniversario-5-1535361495.jpg?crop=0.927xw:1.00xh;0.0733xw,0&resize=500:*");) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    } 
-    .frases-miticas{
-      background-color: lightblue;
-      height:200px;
-    }  
+body{
+margin: 0;
+background-image: url("fondo-abstracto-blanco-minimalista_23-2148816119.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.banner-inicio{
+  width: 300%;
+  display:flex;
+  flex-wrap: wrap;
+}
+li{
+  float: left;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color:black;
+}
+
+li a{
+  display: block;
+  color: rgb(245, 237, 237);
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+ .container{
+   background-image: fondo_banner oc7ne.png;
+ }
+  
